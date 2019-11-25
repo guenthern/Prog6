@@ -13,7 +13,7 @@
                     <asp:TreeNode NavigateUrl="~/Default.aspx" Text="Prog5" Value="New Node"></asp:TreeNode>
                     <asp:TreeNode NavigateUrl="~/Default.aspx" Text="Prog6" Value="New Node">
                         <asp:TreeNode Text="Admin" Value="Admin">
-                            <asp:TreeNode Text="Set Roles" Value="Set Roles"></asp:TreeNode>
+                            <asp:TreeNode Text="Set Roles" Value="Set Roles" NavigateUrl="~/SetRoles.aspx"></asp:TreeNode>
                             <asp:TreeNode NavigateUrl="~/Updating.aspx" Text="Updating Products" Value="Updating Products"></asp:TreeNode>
                         </asp:TreeNode>
                         <asp:TreeNode Text="Member" Value="Member">
